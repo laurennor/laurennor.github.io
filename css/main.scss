@@ -7,8 +7,6 @@ $top-bar-text: #120D1C;
 $top-visit: #BFA4F5;
 $top-active: #120D1C;
 
-
-
 $body-background: #2F2E2F;
 $body-font-color: #E0E0E0;
 
@@ -39,7 +37,9 @@ $bottom-active: #BFA4F5;
   }
   main {
     color: $body-font-color;
+    height: auto;
     overflow: hidden;
+    text-overflow: ellipsis;
 
     @include grid-row;
     article {
@@ -53,12 +53,11 @@ $bottom-active: #BFA4F5;
     }
     a {
     color:$bottom-active;
-    &:hover{
-    color:purple;
+      &:hover{
+      color:purple;
+      }
     }
   }
-  }
-
 
   footer {
   .fixed-bottom {
@@ -87,6 +86,4 @@ $bottom-active: #BFA4F5;
   }
 }
 
-
-  }
-
+}
