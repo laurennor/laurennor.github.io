@@ -1,0 +1,15 @@
+# Site settings
+title: Lauren N. Murphy
+email: laurennor@gmail.com
+description: I'm a developer and this is my personal site. It contains Android development and web development projects such as Ruby and JavaScript.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://laurennor.github.io" # the base hostname & protocol for your site
+
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+
+sass:
+  sass_dir: _sass
+  style: compressed

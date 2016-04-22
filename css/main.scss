@@ -1,0 +1,92 @@
+---
+# This is the Front Matter block
+---
+
+$top-bar-color: #6C5895;
+$top-bar-text: #120D1C;
+$top-visit: #BFA4F5;
+$top-active: #120D1C;
+
+
+
+$body-background: #2F2E2F;
+$body-font-color: #E0E0E0;
+
+$footer-bar-color: #120D1C;
+$footer-bar-text: #BFA4F5;
+$bottom-visit: #E0E0E0;
+$bottom-active: #BFA4F5;
+
+@import 'foundation';
+  @include foundation-everything;
+  body{
+    position: relative;
+    background-color: $body-background;
+
+  header{
+    .top-bar-title{
+      color: $top-bar-text;
+      }
+    .top-bar-right{
+      font-weight: bold;
+     a {
+      color:$top-active;
+        &:hover{
+         color:purple;
+        }
+       }
+    }
+  }
+  main {
+    color: $body-font-color;
+    overflow: hidden;
+
+    @include grid-row;
+    article {
+      header, div:first {
+        @include grid-column(12);
+      }
+    }
+    padding : {
+      left: 20px;
+      right: 20px;
+    }
+    a {
+    color:$bottom-active;
+    &:hover{
+    color:purple;
+    }
+  }
+  }
+
+
+  footer {
+  .fixed-bottom {
+    background-color: $footer-bar-color;
+    color: $footer-bar-text;
+    width: 100%;
+    left: 0;
+    position: fixed;
+    bottom: 0;
+    z-index: 99;
+  }
+
+  .bottom-bar {
+    margin-bottom: 0;
+    margin-top: 1.875em;
+    h1, h2, h3, h4, h5, h6 {
+      color: $footer-bar-text;
+    }
+  }
+
+  a {
+    color:$bottom-active;
+    &:hover{
+    color:purple;
+    }
+  }
+}
+
+
+  }
+
