@@ -11,7 +11,7 @@ My favorite training workshop was "Get out of (almost) Anything with Git" led by
 
 During the afternoon talks, Saeed Noursalehi from Microsoft expressed that git rebase was frequently used by them due to the size of the team working from the same repo. After coding for nearly a year now, I've learned that there are so many debate camps over what's a better practice but in reality a few of these things tend to be rather subjective.
 
-I must give a major shoutout to [#WOCinTechChat][woc-int-tech] for making it possible for me to attend this event. THANK YOU! I'm looking forward to attending the next one.
+I must give a major shoutout to [#WOCinTechChat][woc-in-tech] for making it possible for me to attend this event. THANK YOU! I'm looking forward to attending the next one.
 
 Also, here's a detailed blog post from [GitHub][git-merge-blog-post] about the conference.
 
