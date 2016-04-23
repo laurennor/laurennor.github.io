@@ -37,9 +37,9 @@ $bottom-active: #BFA4F5;
   }
   main {
     color: $body-font-color;
-    height: auto;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    padding-top: 1em;
+    padding-bottom: 20em;
+    overflow-y: hidden;
 
     @include grid-row;
     article {
@@ -48,8 +48,8 @@ $bottom-active: #BFA4F5;
       }
     }
     padding : {
-      left: 20px;
-      right: 20px;
+      left: 1em;
+      right: 1em;
     }
     a {
     color:$bottom-active;
@@ -65,9 +65,14 @@ $bottom-active: #BFA4F5;
     color: $footer-bar-text;
     width: 100%;
     left: 0;
-    position: fixed;
     bottom: 0;
+    position:fixed;
     z-index: 99;
+
+    padding:{
+      top: .5em;
+      bottom: .5em;
+    }
   }
 
   .bottom-bar {
@@ -85,5 +90,4 @@ $bottom-active: #BFA4F5;
     }
   }
 }
-
 }
