@@ -7,8 +7,6 @@ $top-bar-text: #120D1C;
 $top-visit: #BFA4F5;
 $top-active: #120D1C;
 
-
-
 $body-background: #2F2E2F;
 $body-font-color: #E0E0E0;
 
@@ -39,7 +37,9 @@ $bottom-active: #BFA4F5;
   }
   main {
     color: $body-font-color;
-    overflow: hidden;
+    padding-top: 1em;
+    padding-bottom: 20em;
+    overflow-y: hidden;
 
     @include grid-row;
     article {
@@ -48,17 +48,16 @@ $bottom-active: #BFA4F5;
       }
     }
     padding : {
-      left: 20px;
-      right: 20px;
+      left: 1em;
+      right: 1em;
     }
     a {
     color:$bottom-active;
-    &:hover{
-    color:purple;
+      &:hover{
+      color:purple;
+      }
     }
   }
-  }
-
 
   footer {
   .fixed-bottom {
@@ -66,9 +65,14 @@ $bottom-active: #BFA4F5;
     color: $footer-bar-text;
     width: 100%;
     left: 0;
-    position: fixed;
     bottom: 0;
+    position:fixed;
     z-index: 99;
+
+    padding:{
+      top: .5em;
+      bottom: .5em;
+    }
   }
 
   .bottom-bar {
@@ -86,7 +90,4 @@ $bottom-active: #BFA4F5;
     }
   }
 }
-
-
-  }
-
+}
