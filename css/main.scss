@@ -17,22 +17,24 @@ $bottom-active: #BFA4F5;
 
 @import 'foundation';
   @include foundation-everything;
+
   body{
     position: relative;
     background-color: $body-background;
 
   header{
-    .top-bar-title{
-      color: $top-bar-text;
-      }
-    .top-bar-right{
-      font-weight: bold;
-     a {
+    a {
       color:$top-active;
         &:hover{
          color:purple;
         }
        }
+    .top-bar-title{
+      color: $top-active;
+      }
+    .top-bar-right{
+      font-weight: bold;
+
     }
   }
   main {
@@ -66,28 +68,27 @@ $bottom-active: #BFA4F5;
     width: 100%;
     left: 0;
     bottom: 0;
-    position:fixed;
     z-index: 99;
-
+    position: fixed;
     padding:{
       top: .5em;
       bottom: .5em;
     }
-  }
 
-  .bottom-bar {
-    margin-bottom: 0;
-    margin-top: 1.875em;
-    h1, h2, h3, h4, h5, h6 {
-      color: $footer-bar-text;
+    .bottom-bar{
+    text-align: center;
+      li{
+        display: inline;
+        padding: .5em;
+      }
     }
-  }
 
-  a {
+    a {
     color:$bottom-active;
     &:hover{
     color:purple;
     }
   }
+}
 }
 }
