@@ -7,7 +7,7 @@ Tonight was another awesome night of hands-on learning. At the [Write/Speak/Code
 
 We went through the process of forking and cloning the project then using 'git remote add' on the her current project. It has been a while since I've had to use that command but it's the one that will always make sure you have the most up-to-date project especially when you're working with a team. After all, work doesn't halt if Mark or Samantha decide to go to Iceland for the week.
 
-For searching on GitHub/search for projects, Courteney listed some of these hashtags:
+For using GitHub/search for projects, Courteney listed some of these hashtags:
 
 - #help wanted
 - #first-timers-only
