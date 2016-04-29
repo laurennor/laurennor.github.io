@@ -14,7 +14,7 @@ For using GitHub/search for projects, Courteney listed some of these hashtags:
 - #text only
 - #up-for-grabs
 - #jump-in
- -#easy
+- #easy
 
 These sites [CodeMontage][code-montage] and [Contributor Covenant][contrib-cov] were also mentioned as good places to start. This event energized me and I now have a specific goal in mind for a project I would like to contribute to before the end of this year.
 
