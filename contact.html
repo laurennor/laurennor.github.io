@@ -6,8 +6,44 @@ title: Lauren Murphy | Contact
     <div id="container">
       <section id="intro">
         <h3>Contact</h3>
-          <p>If you have any questions or comments, contact me at the email below. Or feel free to reach out through social media.</p>
-          <p>Email: laurennor(at)gmail(dot)com</p>
+        <p>If you have any questions or comments, contact me here. Or feel free to reach out through social media.</p>
+
+        <form data-abide class="validate" id="contact-form">
+          <div class="row">
+          <div class="medium-6 columns">
+           <label>Name:
+           <input type="text" placeholder="enter full name" required>
+          </label>
+          </div>
+        </div>
+          <div class="row">
+          <div class="medium-6 columns">
+           <label>Email:
+           <input type="text" placeholder="enter email" required>
+         </label>
+           </div>
+          </div>
+          <div class="row">
+          <div class="medium-6 columns">
+           <label>Site:
+           <input type="url" placeholder="enter site">
+          </label>
+           </div>
+          </div>
+        <div class="row">
+        <div class="medium-6 columns">
+          <label>Message
+        <textarea placeholder="enter message here" required></textarea>
+        </label>
+          <input type="submit" class="button" data-reveal-id="sent-mail" value="Submit">
+          </form>
         </section>
       </div>
     </main>
+
+
+  <script>
+$(document).foundation();
+$('.validate').attr('data-abide', '');
+$('#sent-mail').foundation('reveal', 'open');
+</script>
