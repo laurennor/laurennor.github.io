@@ -1,24 +1,15 @@
 ---
 layout: post
-title:  Write/Speak/Code Open Source Night
-categories: open-source, oss, wsc
+title:  Much Ado About DNS
+categories: dns, domains
 ---
-Tonight was another awesome night of hands-on learning. At the [Write/Speak/Code NYC][wsc-nyc] event, we had [Courteney Ervin][courteney] discussing "Breaking into Open Source." Technical recruiters and people hiring developers always say "contribute to open source" but the practice is quite daunting as a beginner. Where do you look? What if I'm not advanced enough? These are questions that have entered my mind which led me to three different meetups about open source. Courtney started off by giving us a small writing assignment of why wanted to contribute to open source and why we haven't. We were free to share our thoughts aloud if we chose to. This exercise helped us get ready for the repository she created that we could work on issues from.
+Ever since I downgraded my [HostGator][hostgator] account, things have changed. With a basic package, I had access to changing DNS information. However, when I became a student last summer, I decided to build my personal site on [Github Pages][github-pages] to get rid of an extra expense. Since I purchased my domain through them, I just continued paying for it instead of transferring it somewhere else. I never considered the possibility of transferring the domain until I ran into a DNS issue.
 
-We went through the process of forking and cloning the project then using 'git remote add' on the her current project. It has been a while since I've had to use that command but it's the one that will always make sure you have the most up-to-date project especially when you're working with a team. After all, work doesn't halt if Mark or Samantha decide to go to Iceland for the week.
+When I decided to point my domain to my github.io page, there was no way for me to do this through HostGator's customer portal. It turns out that a downgrade only allowed me basic controls such as managing more than one domain, enabling privacy settings, and transferring domains. For all other issues, I needed to contact customer support. So in the case of pointing my domain, I asked someone from HostGator to do it but they directed it to the wrong IP. This was frustrating since it takes 24-48 hours for DNS changes to propogate which meant the issue remained unresolved during the weekend.
 
-For using GitHub/search for projects, Courteney listed some of these hashtags:
+When I contacted GitHub's customer service about the issue, they spoke to me about how to set up the domain. They said that because I had an apex domain, I needed my DNS provider to point two IP addresses instead of one. When I contacted HostGator again explaining the situation, the person through live chat seemed more interested in debating semantics than in the information I forwarded to them from GitHub. However, in the case of this issue no live chat was able to replace the reassuring phone call that someone corrected the error.
 
-- #help wanted
-- #first-timers-only
-- #text only
-- #up-for-grabs
-- #jump-in
-- #easy
+After this occurrence, I talked to my developer friends who offered me domain host transferring options. I suppose in the long run it would be best for me to find an alternative that is less expensive and also provides me access to the HostGator domain features I lost.
 
-These sites [CodeMontage][code-montage] and [Contributor Covenant][contrib-cov] were also mentioned as good places to start. This event energized me and I now have a specific goal in mind for a project I would like to contribute to before the end of this year.
-
-[wsc-nyc]: http://www.meetup.com/Write-Speak-Code-NYC/
-[code-montage]: https://www.codemontage.com/
-[contrib-cov]: http://contributor-covenant.org/
-[courteney]: https://twitter.com/courteneyervin
+[hostgator]: http://www.hostgator.com/
+[github-pages]: https://pages.github.com/
