@@ -43,7 +43,6 @@ $form-label-color:#E0E0E0;
     color: $body-font-color;
     padding-top: 1em;
     padding-bottom: 20em;
-    overflow-y: hidden;
 
     @include grid-row;
     article {
